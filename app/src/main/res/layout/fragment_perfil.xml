@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:background="@drawable/imag2">
+
+    <TextView
+        android:id="@+id/tv_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/logo"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:layout_gravity="start" />
+
+    <!-- Título de la alerta -->
+    <TextView
+        android:id="@+id/alertTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:paddingBottom="16dp"
+        android:text="@string/alerta_de_gasdetectada"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center" />
+
+
+    <LinearLayout
+        android:id="@+id/alertBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="#2A2828"
+        android:gravity="center"
+        android:layout_marginTop="40dp">
+
+        <!-- Texto de alerta sobre la fuga de gas -->
+        <TextView
+            android:id="@+id/alertMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/se_hadetectado_una_fuga_de_gas_en_el_sensor_cocina"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:paddingBottom="16dp" />
+
+        <!-- Botón para contactar emergencias -->
+        <Button
+            android:id="@+id/contactEmergencyButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/contactar_emergencias"
+            android:textColor="@color/white"
+            android:background="#1976D2"
+            android:padding="12dp"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Botón para apagar dispositivos conectados -->
+        <Button
+            android:id="@+id/turnOffDevicesButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/apagar_dispositivos_conectados"
+            android:textColor="@color/white"
+            android:background="#1976D2"
+            android:padding="12dp" />
+
+        <!-- Mensaje adicional sobre ventilar el área -->
+        <TextView
+            android:id="@+id/ventilateMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ventile_el_area_inmediatamente"
+            android:textSize="14sp"
+            android:textColor="#000000"
+            android:paddingTop="16dp"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

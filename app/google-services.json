@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "215570991182",
+    "project_id": "appgass-3be38",
+    "storage_bucket": "appgass-3be38.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:215570991182:android:111c07e792782215b5db1f",
+        "android_client_info": {
+          "package_name": "com.example.gassappfireb"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtXFyEGC9SHZfr-NXtvyLBaumcuLXtPaA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

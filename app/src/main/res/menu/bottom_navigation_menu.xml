@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item_1"
+        android:title="@string/inicio"
+        android:enabled="true"
+        android:icon="@drawable/ic_home"/>
+    <item
+        android:id="@+id/item_2"
+        android:title="@string/configuracion"
+        android:enabled="true"
+        android:icon="@drawable/confi"/>
+    <item
+        android:id="@+id/item_3"
+        android:title="@string/sensores"
+        android:enabled="true"
+        android:icon="@drawable/sensor"/>
+
+
+</menu>
